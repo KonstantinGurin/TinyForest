@@ -4,12 +4,11 @@ Monialaprojekti
 ![alt text](https://raw.githubusercontent.com/NikoHakala/kasvienkasvatusprojekti/master/Kuvat/Kasvienkastelujarjestelma.png)
 
 Ryhmän kokoonpano:
-<pre>
-# Forelius Juska
-# Hakala Niko
-# Helenius Pekka
-# Gurin Konstantin
-</pre>
+
+Gurin Konstantin <br />
+Forelius Juska <br />
+Hakala Niko <br />
+Helenius Pekka <br />
 
 # Projektin tarkoitus
 

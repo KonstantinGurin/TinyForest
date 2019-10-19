@@ -1,0 +1,21 @@
+def sig_handler(sig, frame):
+
+  # TODO move threading to the main process file
+  # Terminate child threads
+  temperature_sensor.run  = False
+#  waterpump_sensor.run    = False
+#  nutrientpump_power.run = False
+#  lightsensor_power.run  = False
+  sys.exit(0)
+
+####################
+# Linux process signal handlers
+# Covers KeyboardInterrupt as well
+# See: 'man 7 signal' for additional signals
+
+signals = ['SIGINT', 'SIGTERM', 'SIGTSTP', 'SIGTTIN', 'SIGTTOU']
+
+for i in signals:
+  signal.signal(getattr(signal, i), sig_handler)
+
+

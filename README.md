@@ -5,10 +5,10 @@ Monialaprojekti
 
 Ryhmän kokoonpano:
 <pre>
-Forelius Juska
-Hakala Niko
-Helenius Pekka
-Gurin Konstantin
+# Forelius Juska
+# Hakala Niko
+# Helenius Pekka
+# Gurin Konstantin
 </pre>
 
 # Projektin tarkoitus
